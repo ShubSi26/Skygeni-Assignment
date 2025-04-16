@@ -1,0 +1,42 @@
+table, th, td {
+    border: 1px solid rgb(223, 223, 223);
+    border-collapse: collapse;
+  }
+  
+td {
+    padding: 5px;
+    text-align: right;
+  }
+th{
+    padding: 12px;
+}
+  
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+.bggreen{
+    background-color: #08ba32;
+}
+.bgred{
+    background-color: #dd3a11;
+}
+.text-white{
+    color: white;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.widthfull{
+    width: 100%;
+}
+.text-bold{
+    font-weight: bold;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
